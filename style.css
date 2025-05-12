@@ -33,8 +33,11 @@ header > h1{
   padding-top: 50px;
   font-variant: small-caps;
   font-family: "passion one", sans-serif;
-  font-size: 10vw;
+  font-size: 4.5vw;
   text-align: center;
+}
+section > p{
+  padding: 2em;
 }
 
 header > p{
@@ -67,14 +70,18 @@ section.normal{
   color: black;
 }
 section.img{
-  background-color: rgb(22, 22, 22);
+  background-color: rgb(51, 51, 51);
   color: white;
+  background-size: cover;
+  box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.507);
+  background-attachment: fixed;
   
 }
 section.img > p{
-  background-color: rgb(8, 7, 7);
+  background-color: rgba(0, 0, 0, 0.541);
   display: inline-block;
   padding: 5px;
+  text-shadow: 1px 1px 0px black;
   
 }
 section{
@@ -84,6 +91,13 @@ section{
   padding-left: 40px;
   
   font-family: Sriracha, cursive;
+}
+section#img1{
+  background-image: url(../projeto-cordel/imagens/background001.jpg);
+  background-position: right center;
+}
+section#img2{
+  background-image: url(../projeto-cordel/imagens/background002.jpg);
 }
 
   

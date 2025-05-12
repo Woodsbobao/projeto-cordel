@@ -73,7 +73,8 @@ section.img{
 }
 section.img > p{
   background-color: rgb(8, 7, 7);
-  width: 380px;
+  display: inline-block;
+  padding: 5px;
   
 }
 section{
@@ -81,6 +82,7 @@ section{
   padding-bottom: 10vh;
   line-height: 4em;
   padding-left: 40px;
+  
   font-family: Sriracha, cursive;
 }
 
